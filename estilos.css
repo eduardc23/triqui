@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contentStarButton {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#startButton {
+    align-content: center;
+}
+
+.tablero {
+    align-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(32, 30, 30);
+    font-size: 25px;
+    color: white;
+}
+
+.tablero .row {
+    height: 100px;
+    margin: 0;
+}
+
+.tablero .row:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+.tablero .row .celda {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    padding-top: 34px;
+}
+
+.tablero .row .celda:not(:last-child) {
+    border-right: 1px solid white;
+}
